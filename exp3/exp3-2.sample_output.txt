@@ -1,0 +1,14 @@
+abcd
+> Valid Variable
+
+_asd
+> Valid Variable
+
+_asd132
+> Valid Variable
+
+asd45
+> Valid Variable
+
+123
+> Invalid Variable

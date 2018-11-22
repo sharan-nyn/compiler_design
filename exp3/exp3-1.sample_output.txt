@@ -1,0 +1,8 @@
+a = 3 + 2;
+> Valid Statement
+
+a = 3 * (2 + 2);
+> Valid Statement
+
+a = 3 * ;
+> Invalid Statement

@@ -1,0 +1,17 @@
+void		 Keyword
+main		 Identifier
+int		 Keyword
+c		 Identifier
+=		 Assignment-Operator
+55		 Number
+int		 Keyword
+a		 Identifier
+=		 Assignment-Operator
+6		 Number
+if		 Keyword
+a		 Identifier
+==		 Relational-Operator
+c		 Identifier
+printf		 Identifier
+"a==c!"		 Literal
+Count: 16

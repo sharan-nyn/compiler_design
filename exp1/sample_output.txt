@@ -1,0 +1,17 @@
+void	keyword
+main	identifier
+int	keyword
+c	identifier
+=	asgop
+55	number
+int	keyword
+a	identifier
+=	asgop
+6	number
+if	keyword
+a	identifier
+==	relop
+c	identifier
+printf	identifier
+"a==c!"	literal
+Total tokens : 16

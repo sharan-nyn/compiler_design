@@ -1,0 +1,12 @@
+./a.out nfa.txt 
+Enter number of states and number of symbols: 3 2
+Enter the final state: 2
+
+	[a]		[a,b]		[c]	
+	[a,b]		[a,b]		[b,c]	
+	[c]		φ		[a,b]	
+	[b,c]		[a]		[a,b]	
+	φ		φ		φ	
+
+Final-states are:
+	[c]		[b,c]

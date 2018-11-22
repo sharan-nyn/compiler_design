@@ -1,0 +1,7 @@
+./a.out dfa.txt 
+Enter number of states and number of symbols: 5 2
+Enter final states (comma separated): 4
+	[a,c]	[b]		[a,c]	
+	[b]		[b]		[d]	
+	[d]		[b]		*[e]	
+	*[e]	[b]		[a,c]

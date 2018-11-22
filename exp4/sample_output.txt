@@ -1,0 +1,23 @@
+Enter the number of states: 3
+Epsilon transition from S1 to S1 ?
+(1/0): 1
+Epsilon transition from S1 to S2 ?
+(1/0): 0
+Epsilon transition from S1 to S3 ?
+(1/0): 1
+Epsilon transition from S2 to S1 ?
+(1/0): 1
+Epsilon transition from S2 to S2 ?
+(1/0): 1
+Epsilon transition from S2 to S3 ?
+(1/0): 0
+Epsilon transition from S3 to S1 ?
+(1/0): 0 
+Epsilon transition from S3 to S2 ?
+(1/0): 1
+Epsilon transition from S3 to S3 ?
+(1/0): 1
+
+E-Closure of S1: S1 S3 S2 
+E-Closure of S2: S2 S1 S3 
+E-Closure of S3: S3 S2 S1 

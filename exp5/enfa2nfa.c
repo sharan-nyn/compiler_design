@@ -65,10 +65,14 @@ int get_edges(int tab[NSTATES][NSTATES][NSYM], int state, int symbol){
 	return result;
 }
 
-void main() {
+void main(int argc, char* argv[]) {
 	char input[20];
 	char *token, *rest;
-	FILE *fp = fopen("enfa.txt","r");
+	if(argc != 2){
+		printf("Usage: ./a.out <input.txt>\n");
+		return;
+	}
+	FILE *fp = fopen(argv[1],"r");
 	int i , j, k;
 	printf("Enter number of states and number of symbols: ");
 	scanf("%d %d", &NSTATES, &NSYM);

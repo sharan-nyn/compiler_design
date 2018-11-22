@@ -1,0 +1,7 @@
+./a.out enfa.txt
+
+Enter number of states and number of symbols: 4 3
+	{a}		{b,c}		φ	
+	{b}		{c}		{b,c,d}	
+	{c}		{c}		{d}	
+	{d}		φ		φ	

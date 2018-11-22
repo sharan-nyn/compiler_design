@@ -68,11 +68,15 @@ void state2bit(int state, int *num) {
 	*num = (*num) | mask;
 }
 
-void main() {
+void main(int argc, char* argv[]) {
+	if(argc != 2){
+		printf("Usage: ./a.out <input.txt>\n");
+		return;
+	}
+	FILE *fp = fopen(argv[1],"r");
 	char final_s[20];
 	char *token, *rest;
 	int i , j, k, l, input, final=0, merged=0;
-	FILE *fp = fopen("dfa.txt","r");
 	printf("Enter number of states and number of symbols: ");
 	scanf("%d %d", &NSTATES, &NSYM);
 	printf("Enter final states (comma separated): ");

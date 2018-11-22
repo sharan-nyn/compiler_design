@@ -101,10 +101,14 @@ void print_final_states(dfas_t* head, int final) {
 	printf("\n");
 }
 
-void main() {
+void main(int argc, char* argv[]) {
+	if(argc != 2){
+		printf("Usage: ./a.out <input.txt>\n");
+		return;
+	}
+	FILE *fp = fopen(argv[1],"r");
 	char input[20];
 	char* token;
-	FILE *fp = fopen("nfa.txt","r");
 	int i , j, final;
 	printf("Enter number of states and number of symbols: ");
 	scanf("%d %d", &NSTATES, &NSYM);
